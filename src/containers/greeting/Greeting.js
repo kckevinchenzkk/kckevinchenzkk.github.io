@@ -8,6 +8,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import Typical from "react-typical";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -34,7 +35,12 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                <Typical
+                  steps={[
+                    "An Aspiring Software Engineer 🚀", 2000,
+                  ]}
+                  wrapper="span"
+                />
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
