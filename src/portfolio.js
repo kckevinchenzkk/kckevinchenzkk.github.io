@@ -51,72 +51,142 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
+    emoji("⚡ Build scalable backend systems with RESTful APIs and microservices architecture"),
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Design and implement cloud-based solutions using GCP, Docker, and CI/CD pipelines"
+    ),
+    emoji(
+      "⚡ Optimize machine learning pipelines and integrate AI-driven features using TensorFlow and PyTorch"
+    ),
+    emoji(
+      "⚡ Conduct end-to-end testing and ensure maintainability with automated workflows"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+softwareSkills: [
+  {
+    skillName: "Python",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/python-original.svg",
+  },
+  {
+    skillName: "Java",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/java-original.svg",
+  },
+  {
+    skillName: "C",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/c-original.svg",
+  },
+  {
+    skillName: "C++",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/cplusplus-original.svg",
+  },
+  {
+    skillName: "Flask",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Framework/pocoo_flask-icon.svg",
+  },
+  {
+    skillName: "Django",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Framework/django.svg",
+  },
+  {
+    skillName: "Spring Boot",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Backend/springio-icon.svg",
+  },
+  {
+    skillName: "SQL-database",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Database/postgresql-original-wordmark.svg",
+  },
+  {
+    skillName: "MongoDB",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Database/mongodb-original-wordmark.svg",
+  },
+  {
+    skillName: "Google Cloud",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Devops/google_cloud-icon.svg",
+  },
+  {
+    skillName: "Git",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Other/git-scm-icon.svg",
+  },
+  {
+    skillName: "Postman",
+    iconUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-plain.svg",
+  },
+  {
+    skillName: "Docker",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Devops/docker-original-wordmark.svg",
+  },
+  {
+    skillName: "TensorFlow",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/ML/tensorflow-icon.svg",
+  },
+  {
+    skillName: "PyTorch",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/ML/pytorch-icon.svg",
+  },
+  {
+    skillName: "NodeJS",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Backend/nodejs-original-wordmark.svg",
+  },
+  {
+    skillName: "NPM",
+    iconUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg",
+  },
+  {
+    skillName: "HTML5",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/html5-original-wordmark.svg",
+  },
+  {
+    skillName: "CSS3",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/css3-original-wordmark.svg",
+  },
+  {
+    skillName: "JavaScript",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/javascript-original.svg",
+  },
+  {
+    skillName: "ReactJS",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/react-original-wordmark.svg",
+  },
+  // {
+  //   skillName: "NextJS",
+  //   iconUrl: "./assets/images/nextjs.png",
+  // },
+  // {
+  //   skillName: "Kubernetes",
+  //   iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Devops/kubernetes-icon.svg",
+  // },
+  // {
+  //   skillName: "Microsoft Azure",
+  //   iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Devops/microsoft_azure-icon.svg",
+  // },
+  {
+    skillName: "Linux",
+    iconUrl: "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Other/linux-original.svg",
+  },
+  // {
+  //   skillName: "Android",
+  //   iconUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg",
+  // },
+  {
+    skillName: "Arduino",
+    iconUrl: "https://cdn.worldvectorlogo.com/logos/arduino-1.svg",
+  },
+  // {
+  //   skillName: "CircleCI",
+  //   iconUrl: "https://www.vectorlogo.zone/logos/circleci/circleci-icon.svg",
+  // },
+  // {
+  //   skillName: "MATLAB",
+  //   iconUrl: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
+  // },
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -126,23 +196,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Univeristy of Waterloo",
+      logo: require("./assets/images/uw_logo.svg").default,
+      subHeader: "Master of Engineering in Software Engineering",
+      duration: "September 2023 - August 2024",
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "McMaster University",
+      logo: require("./assets/images/McMaster University Logo.png"),
+      subHeader: "Bachelor of Engineering in Computer Engineering",
+      duration: "September 2018 - April 2023",
+      desc: "Dean's Honour List",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     }
   ]
 };
