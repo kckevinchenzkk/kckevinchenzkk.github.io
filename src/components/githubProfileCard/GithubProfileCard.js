@@ -20,7 +20,13 @@ export default function GithubProfileCard({prof}) {
             <div className="blog-header">
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
-            <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
+            <h2 className="bio-text">
+              {String(prof.bio)
+                .split(",") // Split the bio string by commas
+                .map((part, index) => (
+                  <div key={index}>{emoji(part.trim())}</div> // Wrap each part in a new row
+                ))}
+            </h2>
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
