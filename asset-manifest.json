@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9c9afc7d.css",
-    "main.js": "/static/js/main.fe398124.js",
+    "main.js": "/static/js/main.3afa47e2.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -11,7 +11,7 @@
     "static/media/waterloo.jpg": "/static/media/waterloo.7c613647b280df249a14.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/McMaster University Logo.png": "/static/media/McMaster University Logo.82b9b43b4813f12a1974.png",
-    "static/media/resume.pdf": "/static/media/resume.803b498eac4d5ee5001f.pdf",
+    "static/media/resume.pdf": "/static/media/resume.434dd50781bb63abb226.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/uw_logo.svg": "/static/media/uw_logo.e3a231d2cfc64090ec47cb85392f2f11.svg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -22,7 +22,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.9c9afc7d.css.map": "/static/css/main.9c9afc7d.css.map",
-    "main.fe398124.js.map": "/static/js/main.fe398124.js.map",
+    "main.3afa47e2.js.map": "/static/js/main.3afa47e2.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.9c9afc7d.css",
-    "static/js/main.fe398124.js"
+    "static/js/main.3afa47e2.js"
   ]
 }
